@@ -2,12 +2,12 @@ name: "MY_Wokflow"
 
 on:
   #push:
-    branches: [ main ]
+   # branches: [ main ]
   #pull_request:
     # The branches below must be a subset of the branches above
-    branches: [ main ]
+    #branches: [ main ]
   #schedule:
-    - cron: '19 4 * * 3'
+    #- cron: '19 4 * * 3'
   workflow_dispatch:
     inputs:
       logLevel:
@@ -16,8 +16,8 @@ on:
         default: 'warning'
         type: choice
         options:
-        - info
-        - warning
+        #- info
+        #- warning
         - debug
 
 
